@@ -1,13 +1,13 @@
 import { Popover } from '@headlessui/react'
-import 
+import { Bars3Icon as BurgerMenu } from '@heroicons/react/24/outline'
 
 export const Menu = () => {
   return (
-    <Popover className="relative">
-      <Popover.Button className="fixed right-0 top-0 rounded-lg bg-white/80">
+    <Popover className="fixed top-0 flex w-full flex-col">
+      <Popover.Button className="w-fit self-end rounded-lg bg-white/80">
         <BurgerMenu className='h-[60px]' />
       </Popover.Button>
-      <Popover.Panel className="absolute z-10">
+      <Popover.Panel className="z-10 bg-white">
         <div className='flex flex-col'>
           <a href="http://127.0.0.1:5173/a">Test A</a>
           <a href="http://127.0.0.1:5173/b">Test B</a>
@@ -16,13 +16,6 @@ export const Menu = () => {
           <a href="http://127.0.0.1:5173/e">Test D</a>
         </div>
       </Popover.Panel>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro id laudantium, ex facere natus adipisci neque pariatur totam, maxime maiores error enim possimus perspiciatis cupiditate odit? Perspiciatis impedit dolore laudantium.</p>
     </Popover>
   )
 }
