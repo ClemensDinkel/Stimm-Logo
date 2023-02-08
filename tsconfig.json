@@ -24,10 +24,5 @@
     "src",
     "vite.config.ts",
   ],
-  "exclude": [],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "exclude": []
 }
