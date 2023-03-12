@@ -1,11 +1,8 @@
 import { Popover } from '@headlessui/react'
 import { Bars3Icon as BurgerMenu } from '@heroicons/react/24/outline'
 import { clsx } from 'clsx'
-import { sectionLinks } from './sectionLinks'
 
 export const Menu = () => {
-  const { home, impressum, kontakt, logopaedie, stimmCoaching, ueber, vortraege } = sectionLinks
-
   return (
     <Popover className="fixed top-0 flex w-full flex-col">
       {({ open, close }) => (
@@ -19,19 +16,19 @@ export const Menu = () => {
           <Popover.Panel className="z-10 rounded-lg p-4">
             <div className='flex flex-wrap gap-8'>
               <div className='flex gap-8'>
-                <a href={home} onClick={close}>Home</a>
-                <a href={stimmCoaching} onClick={close}>Stimmcoaching</a>
+                <a href="#home" onClick={close}>Home</a>
+                <a href="#stimmcoaching" onClick={close}>Stimmcoaching</a>
               </div>
               <div className='flex gap-8'>
-                <a href={logopaedie} onClick={close}>Logopädie</a>
-                <a href={vortraege} onClick={close}>Vorträge & Workshops</a>
+                <a href="#logopaedie" onClick={close}>Logopädie</a>
+                <a href="#vortraege" onClick={close}>Vorträge & Workshops</a>
               </div>
               <div className='flex gap-8'>
-                <a href={ueber} onClick={close}>Über mich</a>
-                <a href={kontakt} onClick={close}>Kontakt</a>
+                <a href="#ueber" onClick={close}>Über mich</a>
+                <a href="#anfahrt" onClick={close}>Anfahrt</a>
               </div>
               <div className='flex gap-8'>
-                <a href={impressum} onClick={close}>Impressum</a>
+                <a href="#impressum" onClick={close}>Impressum</a>
               </div>
             </div>
           </Popover.Panel>
