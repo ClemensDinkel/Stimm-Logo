@@ -1,6 +1,7 @@
 import { Popover } from '@headlessui/react'
 import { Bars3Icon as BurgerMenu } from '@heroicons/react/24/outline'
 import { clsx } from 'clsx'
+import { sectionLinks } from './sectionLinks'
 
 export const Menu = () => {
   return (
@@ -16,19 +17,19 @@ export const Menu = () => {
           <Popover.Panel className="z-10 rounded-lg p-4">
             <div className='flex flex-wrap gap-8'>
               <div className='flex gap-8'>
-                <a href="#home" onClick={close}>Home</a>
-                <a href="#stimmcoaching" onClick={close}>Stimmcoaching</a>
+                <a href={'#' + sectionLinks.home} onClick={close}>Home</a>
+                <a href={'#' + sectionLinks.stimmCoaching} onClick={close}>Stimmcoaching</a>
               </div>
               <div className='flex gap-8'>
-                <a href="#logopaedie" onClick={close}>Logopädie</a>
-                <a href="#vortraege" onClick={close}>Vorträge & Workshops</a>
+                <a href={'#' + sectionLinks.logopaedie} onClick={close}>Logopädie</a>
+                <a href={'#' + sectionLinks.vortraege} onClick={close}>Vorträge & Workshops</a>
               </div>
               <div className='flex gap-8'>
-                <a href="#ueber" onClick={close}>Über mich</a>
-                <a href="#anfahrt" onClick={close}>Anfahrt</a>
+                <a href={'#' + sectionLinks.ueber} onClick={close}>Über mich</a>
+                <a href={'#' + sectionLinks.anfahrt} onClick={close}>Anfahrt</a>
               </div>
               <div className='flex gap-8'>
-                <a href="#impressum" onClick={close}>Impressum</a>
+                <a href={'#' + sectionLinks.impressum} onClick={close}>Impressum</a>
               </div>
             </div>
           </Popover.Panel>

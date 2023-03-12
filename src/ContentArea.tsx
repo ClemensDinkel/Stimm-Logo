@@ -1,4 +1,5 @@
 import { Image, IconSize } from './components/Image'
+import { sectionLinks } from './sectionLinks'
 
 export const ContentArea = () => {
   return (
@@ -10,7 +11,7 @@ export const ContentArea = () => {
       />
       <p >Herzlich Willkommen in der Privatpraxis für Stimmcoaching & Logopädie</p>
       <span> Individuell - ganzheitlich - ressourcenorientiert</span>
-      <h1 id="#stimmcoaching" className="text-xl font-bold">Stimmcoaching</h1>
+      <h1 id={sectionLinks.stimmCoaching} className="text-xl font-bold">Stimmcoaching</h1>
       <p >Ihre Stimme ist Ihre Visitenkarte und ein nicht zu unterschätzender Erfolgsfaktor.</p>
       <Image
         src="/Front2.jpg"
@@ -22,7 +23,7 @@ export const ContentArea = () => {
         Sprechen und Körpersprache interessiert sind. Durch ein Stimmcoaching steigern Sie Ihre Präsenz und die Wirkungsweise auf Ihre ZuhörerInnen.
         Es wird Ihnen leichter fallen, beruflich und privat sicherer und lockerer vor Menschen zu sprechen.
       </p>
-      <h1 id="#logopaedie" className="text-xl font-bold">Logopädie</h1>
+      <h1 id={sectionLinks.logopaedie} className="text-xl font-bold">Logopädie</h1>
       <Image
         src="/Logo1.jpg"
         alt="Logopädie mit Spiegel"
@@ -47,7 +48,7 @@ export const ContentArea = () => {
         <li>Dysarthrie</li>
         <li>Aphasie</li>
       </ul>
-      <h1 id="#vortraege" className="text-xl font-bold">Vorträge & Workshops</h1>
+      <h1 id={sectionLinks.vortraege} className="text-xl font-bold">Vorträge & Workshops</h1>
       <p>Darüber hinaus biete ich Vorträge und Workshops für Interessierte an,
         die in ihrem Beruf stimmlich stark gefordert sind, z.B. ManagerInnen, ErzieherInnen, LehrerInnen, Callcenter-MitarbeiterInnen.
         Hintergrundwissen zum Thema Stimme und Prävention erhalten möchten.
@@ -56,15 +57,15 @@ export const ContentArea = () => {
         In einem praxisbezogenen Training erarbeiten wir gemeinsam Techniken  zur Entwicklung des Stimmpotentials, zur Kräftigung von Stimme und Atmung.
         Gerne können Sie mich auch für weitere Vortragsthemen anfragen.
       </p>
-      <h1 id="#ueber" className="text-xl font-bold">Über mich</h1>
+      <h1 id={sectionLinks.ueber} className="text-xl font-bold">Über mich</h1>
       <p>Ich bin in Balingen aufgewachsen und zur Schule gegangen.
         Nach dem Abitur habe ich meine Ausbildung zur Logopädin an der Akademie für medizinische Berufe des Uniklinikums Ulm absolviert.
         Mit langjähriger Erfahrung als angestellte Logopädin und zahlreichen Weiterbildungen starte ich nun in eigener Praxis.
         Ich freue mich auf Sie!
       </p>
-      <h1 id="#anfahrt" className="text-xl font-bold">Anfahrt</h1>
+      <h1 id={sectionLinks.anfahrt} className="text-xl font-bold">Anfahrt</h1>
       <Image src='/Directions.png' alt="weg zur praxis" />
-      <h1 id="#impressum" className="text-xl font-bold">Impressum</h1>
+      <h1 id={sectionLinks.impressum} className="text-xl font-bold">Impressum</h1>
     </div >
   )
 }
