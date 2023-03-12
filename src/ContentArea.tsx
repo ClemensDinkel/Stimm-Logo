@@ -14,8 +14,8 @@ export const ContentArea = () => {
       <h1 id={sectionLinks.stimmCoaching} className="text-xl font-bold">Stimmcoaching</h1>
       <p >Ihre Stimme ist Ihre Visitenkarte und ein nicht zu unterschätzender Erfolgsfaktor.</p>
       <Image
-        src="/Front2.jpg"
-        alt="Corinna Dinkel 2"
+        src="/Mic.jpg"
+        alt="Microphone"
         size={IconSize.md}
       />
       <p>
