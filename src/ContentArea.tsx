@@ -10,7 +10,7 @@ export const ContentArea = () => {
         size={IconSize.md}
       />
       <p >Herzlich Willkommen in der Privatpraxis für Stimmcoaching & Logopädie</p>
-      <span> Individuell - ganzheitlich - ressourcenorientiert</span>
+      <span className='font-semibold italic'> Individuell - ganzheitlich - ressourcenorientiert</span>
       <h1 id={sectionLinks.stimmCoaching} className="text-xl font-bold">Stimmcoaching</h1>
       <p >Ihre Stimme ist Ihre Visitenkarte und ein nicht zu unterschätzender Erfolgsfaktor.</p>
       <Image
@@ -66,6 +66,10 @@ export const ContentArea = () => {
       <h1 id={sectionLinks.anfahrt} className="text-xl font-bold">Anfahrt</h1>
       <Image src='/Directions.png' alt="weg zur praxis" />
       <h1 id={sectionLinks.impressum} className="text-xl font-bold">Impressum</h1>
+      <div>Corinna Dinkel</div>
+      <div>Am Hurn 9, 72336 Balingen/Endingen</div>
+      <div>Telefon: 07433/383443</div>
+      <div>Email: info@stimmcoaching-logopaedie.de</div>
     </div >
   )
 }
