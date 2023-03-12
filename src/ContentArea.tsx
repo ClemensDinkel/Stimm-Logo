@@ -3,13 +3,13 @@ import { sectionLinks } from './sectionLinks'
 
 export const ContentArea = () => {
   return (
-    <div className="max-w-[1000px] space-y-8 px-8 pb-8">
+    <div className="flex max-w-[1000px] flex-col items-center justify-center space-y-8 px-8 pb-8 text-center">
       <Image
         src="/Front1.jpg"
         alt="Corinna Dinkel"
         size={IconSize.md}
       />
-      <p >Herzlich Willkommen in der Privatpraxis für Stimmcoaching & Logopädie</p>
+      <p className='text-2xl font-bold'>Herzlich Willkommen in der Privatpraxis für Stimmcoaching & Logopädie</p>
       <span className='font-semibold italic'> Individuell - ganzheitlich - ressourcenorientiert</span>
       <h1 id={sectionLinks.stimmCoaching} className="text-xl font-bold">Stimmcoaching</h1>
       <p >Ihre Stimme ist Ihre Visitenkarte und ein nicht zu unterschätzender Erfolgsfaktor.</p>
