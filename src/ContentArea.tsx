@@ -2,7 +2,7 @@ import { Image, IconSize } from './components/Image'
 import { sectionLinks } from './sectionLinks'
 
 export const ContentArea = () => {
-  // todo: sections, footer mit funktionen verbinden, google font direkt einbetten und absatz streichen
+  // todo: sections, footer mit funktionen verbinden, google font direkt einbetten und absatz streichen, menu zentrieren und auf größeren screens immer anzeigen, bilder responsive
   return (
     <div className="flex max-w-[1000px] flex-col items-center justify-center space-y-8 px-8 pb-8 text-center">
       <Image
