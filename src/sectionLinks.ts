@@ -5,5 +5,6 @@ export const sectionLinks = {
   vortraege: 'vortraege',
   ueber: 'ueber',
   anfahrt: 'anfahrt',
-  impressum: 'impressum'
+  impressum: 'impressum',
+  datenschutz: 'datenschutz'
 }

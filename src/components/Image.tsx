@@ -7,6 +7,11 @@ export enum IconSize {
   default = 'default'
 }
 
+interface ImageFrameProps {
+  src: string;
+  alt: string;
+  size?: IconSize;
+}
 interface IconFrameProps {
   src: string;
   alt: string;
@@ -22,4 +27,5 @@ const sizeToClass = (size: IconSize = IconSize.default) => {
   }
 }
 
-export const Image = ({ src, size, alt }: IconFrameProps) => <img className={clsx('rounded-lg', sizeToClass(size))} src={src} alt={alt} />
+export const Image = ({ src, size, alt }: ImageFrameProps) => <img className={clsx('rounded-lg', sizeToClass(size))} src={src} alt={alt} />
+export const Icon = ({ src, alt }: IconFrameProps) => <img className='h-[40px] rounded-full border border-white' src={src} alt={alt} />

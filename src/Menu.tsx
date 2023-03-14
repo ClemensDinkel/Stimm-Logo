@@ -5,9 +5,9 @@ import { sectionLinks } from './sectionLinks'
 
 export const Menu = () => {
   return (
-    <Popover className="fixed top-0 flex w-full flex-col">
+    <Popover className="fixed top-0 right-0 flex w-full flex-col">
       {({ open, close }) => (
-        <div className={clsx('flex w-full flex-col rounded-b-lg', { 'bg-[#56070C] text-white': open })}>
+        <div className={clsx('flex w-full flex-col rounded-b-lg', { 'bg-[#56070C]/95 text-white': open })}>
           <Popover.Button className={clsx('z-20 mr-4 w-fit self-end rounded-lg', {
             'bg-[#56070C]': open,
             'bg-white/80': !open
@@ -30,6 +30,8 @@ export const Menu = () => {
               </div>
               <div className='flex gap-8'>
                 <a href={'#' + sectionLinks.impressum} onClick={close}>Impressum</a>
+                <a href={'#' + sectionLinks.datenschutz} onClick={close}>Datenschutz</a>
+
               </div>
             </div>
           </Popover.Panel>
