@@ -15,7 +15,6 @@ interface ImageFrameProps {
 interface IconFrameProps {
   src: string;
   alt: string;
-  size?: IconSize;
 }
 
 const sizeToClass = (size: IconSize = IconSize.default) => {

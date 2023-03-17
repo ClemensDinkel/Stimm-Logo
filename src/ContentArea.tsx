@@ -16,7 +16,7 @@ export const ContentArea = () => {
       <p >Ihre Stimme ist Ihre Visitenkarte und ein nicht zu unterschätzender Erfolgsfaktor.</p>
       <Image
         src="/Mic.jpg"
-        alt="Microphone"
+        alt="Mikrophon"
         size={IconSize.md}
       />
       <p>
@@ -97,6 +97,7 @@ export const ContentArea = () => {
       <p>2012-2015: Tätigkeit in logopädischer Praxis in Weißenhorn, Kooperation mit Frühförderstelle</p>
       <p>2008-2011: Ausbildung zur Logopädin an der staatlich anerkannten Schule für Logopädie des Universitätsklinikums Ulm</p>
       <p>1987: In Balingen geboren</p>
+      <Image src="/UeberMich.jpg" alt="Corinna Dinkel" />
       <h2>Fachliche Spezialisierungen:</h2>
       <ul>
         <li>- Stimmarbeit nach Prof. Linklater, die Befreiung der natürlichen Stimme</li>
@@ -112,6 +113,9 @@ export const ContentArea = () => {
       </ul>
       <h1 id={sectionLinks.anfahrt}>Anfahrt</h1>
       <Image src='/Directions.png' alt="weg zur praxis" />
+      <p>Kostenlose Parkmöglichkeiten befinden sich entlang der Eisenbahnstraße und in der Querstraße.</p>
+      <p>Am Hurn ist ein kleiner Fußweg.</p>
+      <p>Der Zugang ist barrierefrei möglich.</p>
       <h1 id={sectionLinks.impressum}>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
       <p>Corinna Dinkel</p>
@@ -168,7 +172,7 @@ export const ContentArea = () => {
           Wenn Sie meine Webseiten aufrufen, ist es technisch notwendig, dass über Ihren Internetbrowser Daten an einen Webserver übermittelt werden.
           Folgende Daten werden während einer laufenden Verbindung zur Kommunikation zwischen Ihrem Internetbrowser und dem Webserver aufgezeichnet:
         </p>
-        <ul>
+        <ul className='text-sm'>
           <li>Datum und Uhrzeit der Anforderung</li>
           <li>Name der angeforderten Datei</li>
           <li>Seite, von der aus die Datei angefordert wurde</li>
