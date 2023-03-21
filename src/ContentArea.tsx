@@ -20,7 +20,7 @@ export const ContentArea = () => {
         size={IconSize.md}
       />
       <p>
-        Ein Stimmcoaching ist etwas für alle Menschen, die ihre Stimme beruflich einsetzen wie z.B.
+        Ein Stimmcoaching ist gewinnbringend für alle Menschen, die ihre Stimme beruflich einsetzen wie z.B.
         Führungskräfte, ÄrztInnen,  LehrerInnen, ErzieherInnen, VerkäuferInnen, SporttrainerInnen, PolitikerInnen, PastorInnen, RednerInnen, etc.
       </p>
       <p>
@@ -83,7 +83,8 @@ export const ContentArea = () => {
       <ul>
         <li>- in ihrem Beruf stimmlich stark gefordert sind, z.B. ErzieherInnen, LehrerInnen, Callcenter-MitarbeiterInnen.</li>
         <li>- Hintergrundwissen zum Thema Stimme und Prävention erhalten möchten.</li>
-        <li>- langes Sprechen als anstrengend empfinden.oft zu leise/monoton/undeutlich sprechen.</li>
+        <li>- langes Sprechen als anstrengend empfinden.</li>
+        <li>- oft zu leise/monoton/undeutlich sprechen.</li>
       </ul>
       <p>
         Prävention setzt an, bevor sich durch unökonomische Stimmbelastung eine Stimmstörung entwickelt und Therapie nötig wird.
@@ -119,7 +120,7 @@ export const ContentArea = () => {
       <h1 id={sectionLinks.impressum}>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
       <p>Corinna Dinkel</p>
-      <p>staatlich anerkannte Logopädin</p>
+      <p>Staatlich anerkannte Logopädin</p>
       <p>Am Hurn 9</p>
       <p>72336 Balingen</p>
       <p>+49 (0) 7433/383443</p>
