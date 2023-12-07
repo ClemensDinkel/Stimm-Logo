@@ -98,7 +98,7 @@ export const ContentArea = () => {
       <p>2012-2015: Tätigkeit in logopädischer Praxis in Weißenhorn, Kooperation mit Frühförderstelle</p>
       <p>2008-2011: Ausbildung zur Logopädin an der staatlich anerkannten Schule für Logopädie des Universitätsklinikums Ulm</p>
       <p>1987: In Balingen geboren</p>
-      <Image src="/UeberMich.jpg" alt="Corinna Dinkel" />
+      <Image src="/UeberMich.jpg" alt="Corinna Dinkel" size={IconSize.md} />
       <h2>Fachliche Spezialisierungen:</h2>
       <ul>
         <li>- Stimmarbeit nach Prof. Linklater, die Befreiung der natürlichen Stimme</li>
