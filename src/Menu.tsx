@@ -15,7 +15,7 @@ export const Menu = () => {
             <BurgerMenu className='h-[60px]' />
           </Popover.Button>
           <Popover.Panel className="z-10 rounded-lg p-4">
-            <div className='flex flex-wrap gap-8'>
+            <div className='flex flex-wrap justify-center gap-8'>
               <div className='flex gap-8'>
                 <a href={'#' + sectionLinks.home} onClick={close}>Home</a>
                 <a href={'#' + sectionLinks.stimmCoaching} onClick={close}>Stimmcoaching</a>
