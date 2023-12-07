@@ -14,4 +14,3 @@ export const Footer = () => {
     </div>
   )
 }
-//       <h1 className="flex w-full select-none justify-center bg-gradient-to-b from-[#002e46] from-0% via-[#427AA1]/60 via-50% to-[#002e46] to-100% font-sans text-[44px]">
