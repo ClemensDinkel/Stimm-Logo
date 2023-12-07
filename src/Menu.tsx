@@ -7,7 +7,7 @@ export const Menu = () => {
   return (
     <Popover className="fixed top-0 right-0 flex w-full flex-col">
       {({ open, close }) => (
-        <div className={clsx('flex w-full flex-col rounded-b-lg', { 'bg-[#56070C]/95 text-white': open })}>
+        <div className={clsx('flex w-full flex-col rounded-b-lg', { 'bg-gradient-to-b from-[#56070C]/95 to-[#56070C]/0 via-[98%] text-white': open })}>
           <Popover.Button className={clsx('z-20 mr-4 w-fit self-end rounded-lg', {
             'bg-[#56070C]': open,
             'bg-white/80': !open
