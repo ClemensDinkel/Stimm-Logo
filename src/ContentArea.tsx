@@ -2,7 +2,7 @@ import { Image, IconSize } from './components/Image'
 import { sectionLinks } from './sectionLinks'
 
 export const ContentArea = () => {
-  // todo: sections, footer mit funktionen verbinden, google font direkt einbetten und absatz streichen, menu zentrieren und auf größeren screens immer anzeigen, bilder responsive
+  // todo: sections, google font direkt einbetten und absatz streichen, menu zentrieren und auf größeren screens immer anzeigen, bilder responsive
   return (
     <div className="flex max-w-[1000px] flex-col items-center justify-center space-y-8 px-8 pb-8 text-center">
       <Image
@@ -111,17 +111,18 @@ export const ContentArea = () => {
         <li>- Kontextoptimierung-Evidenzbasierte Therapie grammatischer Störungen im Vorschul-und Schulalter nach Prof. Dr. Motsch</li>
         <li>- Der Wortschatzsammler-Strategietherapie lexikalischer Störungen im Vorschul-und Schulalter nach Prof. Dr. Motsch</li>
         <li>- Manuelle Schlucktherapie nach Heber</li>
+        <li>- OsLo - Osteopathie & Logopädie</li>
       </ul>
       <h1 id={sectionLinks.anfahrt}>Anfahrt</h1>
-      <Image src='/Directions.png' alt="weg zur praxis" />
-      <p>Kostenlose Parkmöglichkeiten befinden sich entlang der Eisenbahnstraße und in der Querstraße.</p>
-      <p>Am Hurn ist ein kleiner Fußweg.</p>
-      <p>Der Zugang ist barrierefrei möglich.</p>
+      {/* <Image src='/Directions.png' alt="weg zur praxis" /> */}
+      <p>Ab 1.11.2024 befindet sich die Praxis in der Neuffenstraße 9 in 72336 Balingen</p>
+      <p>Kostenlose Parkmöglichkeiten finden sich entlang der Neuffenstraße und der Roßbergstraße.</p>
+      <p>Nach Absprache ist der Zugang über einen Nebeneingang in der Roßbergstraße auch barrierefrei möglich.</p>
       <h1 id={sectionLinks.impressum}>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>
       <p>Corinna Dinkel</p>
       <p>Staatlich anerkannte Logopädin</p>
-      <p>Am Hurn 9</p>
+      <p>Neuffenstraße 9</p>
       <p>72336 Balingen</p>
       <p>+49 (0) 7433/383443</p>
       <p>info@stimmcoaching-logopaedie.de</p>
@@ -129,7 +130,7 @@ export const ContentArea = () => {
       <p>Staatlich anerkannte Logopädin</p>
       <p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</p>
       <p>Corinna Dinkel</p>
-      <p>Am Hurn 9</p>
+      <p>Neuffenstraße 9</p>
       <p>72336 Balingen</p>
       <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
       <p>Haftung für Inhalte</p>
@@ -159,7 +160,7 @@ export const ContentArea = () => {
         <p>Verantwortliche Stelle im Sinne des Datenschutzrechts</p>
         <p>Privatpraxis für Stimmcoaching & Logopädie</p>
         <p>Corinna Dinkel</p>
-        <p>Am Hurn 9</p>
+        <p>Neuffenstraße 9</p>
         <p>72336 Balingen</p>
         <p>info@stimmcoaching-logopaedie.de</p>
         <p>07433/383443</p>
