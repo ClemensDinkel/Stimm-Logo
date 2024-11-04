@@ -114,8 +114,7 @@ export const ContentArea = () => {
         <li>- OsLo - Osteopathie & Logopädie</li>
       </ul>
       <h1 id={sectionLinks.anfahrt}>Anfahrt</h1>
-      {/* <Image src='/Directions.png' alt="weg zur praxis" /> */}
-      <p>Ab 1.11.2024 befindet sich die Praxis in der Neuffenstraße 9 in 72336 Balingen</p>
+      <p>Seit 1.11.2024 befindet sich die Praxis in der Neuffenstraße 9 in 72336 Balingen</p>
       <p>Kostenlose Parkmöglichkeiten finden sich entlang der Neuffenstraße und der Roßbergstraße.</p>
       <p>Nach Absprache ist der Zugang über einen Nebeneingang in der Roßbergstraße auch barrierefrei möglich.</p>
       <h1 id={sectionLinks.impressum}>Impressum</h1>
@@ -124,7 +123,7 @@ export const ContentArea = () => {
       <p>Staatlich anerkannte Logopädin</p>
       <p>Neuffenstraße 9</p>
       <p>72336 Balingen</p>
-      <p>+49 (0) 7433/383443</p>
+      <p>+49 (0) 7433/9670554</p>
       <p>info@stimmcoaching-logopaedie.de</p>
       <p>Berufsbezeichnung und berufsrechtliche Regelungen</p>
       <p>Staatlich anerkannte Logopädin</p>
@@ -163,7 +162,7 @@ export const ContentArea = () => {
         <p>Neuffenstraße 9</p>
         <p>72336 Balingen</p>
         <p>info@stimmcoaching-logopaedie.de</p>
-        <p>07433/383443</p>
+        <p>07433/9670554</p>
         <h2>Begriffsbestimmungen</h2>
         <p>
           In dieser Datenschutzerklärung werden in der Regel die offiziellen Begriffe der Datenschutzgrundverordnung (DSGVO) verwendet.
